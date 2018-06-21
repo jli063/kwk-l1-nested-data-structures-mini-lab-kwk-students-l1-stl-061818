@@ -6,9 +6,34 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
-def sandwich_request(ingredients, order) 
-  # your code here!
+def sandwich_request(ingredients, order)
+  def sandwich_request
+ ingredients = [
+   ["rye", "sourdough", "baguette"],
+   ["ham", "salami", "turkey"],
+   ["swiss", "munster", "cheddar"],
+   ["mayo", "mustard", "tabasco"]
+]
+puts ingredients[3]
+puts ingredients[2][2]
+puts ingredients[0][1]
 end
+sandwich_request
+#   ingredients = [
+#     ["rye", "sourdough", "baguette"],
+#     ["ham", "salami", "turkey"],
+#     ["swiss", "munster", "cheddar"],
+#     ["mayo", "mustard", "tabasco"]
+#     ]
+#   if order = ingredients
+#     puts "true"
+#   else
+#     puts "false"
+#   end
+# end
+sandwich_request
+  # your code here!
+
 
 # example city_info hash
 cities = {
@@ -36,4 +61,5 @@ cities = {
 
 def city_populations(cities)
   # your code here!
+end
 end
